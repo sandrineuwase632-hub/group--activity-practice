@@ -1,0 +1,32 @@
+button{
+    color: black;
+    background-color: blue;
+    padding:3px;
+border-radius: 8px;
+border: none;
+}
+button:hover{
+    background: #abed74;
+    cursor: pointer;
+}
+body{
+    background-color: green;
+}
+fieldset{
+    background-color: rgb(161, 161, 204);
+    height: 50%;
+    width: 20%;
+}
+.symbol{
+    background-color: goldenrod;
+    padding: 8%;
+}
+.number{
+    background-color: red;
+}
+.div{
+    justify-content: space-between;
+    display: grid;
+}
+.sy{
+}

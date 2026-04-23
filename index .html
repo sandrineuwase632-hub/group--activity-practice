@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <title>welcome</title>
+    <link rel="stylesheet" href="about.css">
+  </head> 
+  <body>
+    <fieldset>
+      <div>
+      <input id="display">
+      <div class="sy">
+      <button onclick="fab('+')" class="symbol">+</button>
+      <button onclick="fab('-')" class="symbol">-</button>
+      <button onclick="fab('*')" class="symbol">*</button>
+      <button onclick="fab('/')" class="symbol">/</button>
+      <button onclick="fab('.')" class="symbol">.</button>
+      </div>
+      <div class="nu">
+         <button onclick="fab(1)" class="number">1</button>
+      <button onclick="fab(2)" class="number">2</button>
+      <button onclick="fab(3)" class="number">3</button>
+      <button onclick="fab(4)" class="number">4</button>
+      <button onclick="fab(5)" class="number">5</button>
+      <button onclick="fab(6)" class="number">6</button>
+      <button onclick="fab(7)" class="number">7</button>
+      <button onclick="fab(8)" class="number">8</button>
+      <button onclick="fab(9)" class="number">9</button>
+      <button onclick="fab(0)" class="number">0</button>
+      </div>
+     
+      <button onclick="cleard()">X</button>
+      <button onclick="calclator()">=</button>
+      </div>
+    </div>
+    </fieldset>
+    
+    <script>
+const div=document.getElementById("display")
+function fab(input){
+  display.value +=input;
+}
+function cleard(){
+  display.value="";
+}
+function calclator()
+{
+  display.value=eval(display.value);
+}
+    </script>
+    <h2>welcome</h2>
+    <button>submit</button>
+<p>important of friend</p>
+  </body> 
+</html>
